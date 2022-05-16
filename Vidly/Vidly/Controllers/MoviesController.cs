@@ -24,11 +24,12 @@ namespace Vidly.Controllers
         // GET: Movie by id
         public ActionResult Details(int? id)
         {
-            foreach (var movie in movies.Where(movie => movie.Id == id))
-            {
-                return View(movie);
-            }
-            return HttpNotFound();
+            var movie = movies.SingleOrDefault(x => x.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
+            return View(movie);
         }
 
         //[Route("movies/released/{year}/{month:regex(\\d{4}):range(1,12)}")]

@@ -4,32 +4,45 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
+using System.Data.Entity;
 
 namespace Vidly.Controllers
 {
     //decides what customer page to navigate to and what to do on load
     public class CustomersController : Controller
     {
-        IEnumerable<Customer> customers = new List<Customer>()
-        {
-            new Customer() { Id=1, FirstName = "Mika", LastName = "Schmitz" },
-            new Customer() { Id=2, FirstName = "Melissa", LastName = "Jagers" }
-        };
 
+        //database context
+        private ApplicationDbContext _context;
+        public CustomersController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
+
+        // navigate using controller
         // GET: Customers
         public ActionResult Index()
         {
+            //include the membership type using include
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
             return View(customers);
         }
 
         // GET: customer by id
         public ActionResult Details(int? id)
         {
-            foreach (Customer customer in customers.Where(customer => customer.Id == id))
-            {
-                return View(customer);
-            }
-            return HttpNotFound();
+            var customer = _context.Customers.SingleOrDefault(x => x.Id == id);
+
+            if (customer == null)
+                return HttpNotFound();
+
+            return View(customer);
         }
     }
 }
