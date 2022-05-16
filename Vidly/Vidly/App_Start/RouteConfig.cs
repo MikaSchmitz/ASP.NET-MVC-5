@@ -11,12 +11,12 @@ namespace Vidly
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            //allow different routes to be added in the controller
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //allow different rouetes to be added by controller
             routes.MapMvcAttributeRoutes();
 
-            // default route
+            //defaukt route
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

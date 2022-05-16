@@ -24,7 +24,8 @@ namespace Vidly.Controllers
         // GET: Movie by id
         public ActionResult Details(int? id)
         {
-            foreach (var movie in movies.Where(movie => movie.Id == id)){
+            foreach (var movie in movies.Where(movie => movie.Id == id))
+            {
                 return View(movie);
             }
             return HttpNotFound();
