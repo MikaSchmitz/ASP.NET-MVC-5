@@ -237,3 +237,14 @@ E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnno
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.BeforeExersises.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipNameData.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdateFieldToDb.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdayToUsers.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdayToUsers1.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthdayToUsers2.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixDatetime.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMoviesToDb.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMovies.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetGenres.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAndUpdateMovies.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.NewMovieProperties.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRequiredFields.resources

@@ -221,9 +221,54 @@
     <Compile Include="Migrations\202205182035507_UpdateMembershipNameData.designer.cs">
       <DependentUpon>202205182035507_UpdateMembershipNameData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202205182058328_AddBirthdateFieldToDb.cs" />
+    <Compile Include="Migrations\202205182058328_AddBirthdateFieldToDb.designer.cs">
+      <DependentUpon>202205182058328_AddBirthdateFieldToDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182129402_AddBirthdayToUsers.cs" />
+    <Compile Include="Migrations\202205182129402_AddBirthdayToUsers.designer.cs">
+      <DependentUpon>202205182129402_AddBirthdayToUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182135276_AddBirthdayToUsers1.cs" />
+    <Compile Include="Migrations\202205182135276_AddBirthdayToUsers1.designer.cs">
+      <DependentUpon>202205182135276_AddBirthdayToUsers1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182145211_AddBirthdayToUsers2.cs" />
+    <Compile Include="Migrations\202205182145211_AddBirthdayToUsers2.designer.cs">
+      <DependentUpon>202205182145211_AddBirthdayToUsers2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182150176_FixDatetime.cs" />
+    <Compile Include="Migrations\202205182150176_FixDatetime.designer.cs">
+      <DependentUpon>202205182150176_FixDatetime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182219325_AddMoviesToDb.cs" />
+    <Compile Include="Migrations\202205182219325_AddMoviesToDb.designer.cs">
+      <DependentUpon>202205182219325_AddMoviesToDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182224071_UpdateMovies.cs" />
+    <Compile Include="Migrations\202205182224071_UpdateMovies.designer.cs">
+      <DependentUpon>202205182224071_UpdateMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182225067_SetGenres.cs" />
+    <Compile Include="Migrations\202205182225067_SetGenres.designer.cs">
+      <DependentUpon>202205182225067_SetGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182242521_AddAndUpdateMovies.cs" />
+    <Compile Include="Migrations\202205182242521_AddAndUpdateMovies.designer.cs">
+      <DependentUpon>202205182242521_AddAndUpdateMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182303239_NewMovieProperties.cs" />
+    <Compile Include="Migrations\202205182303239_NewMovieProperties.designer.cs">
+      <DependentUpon>202205182303239_NewMovieProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202205182303519_AddRequiredFields.cs" />
+    <Compile Include="Migrations\202205182303519_AddRequiredFields.designer.cs">
+      <DependentUpon>202205182303519_AddRequiredFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -335,6 +380,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202205182035507_UpdateMembershipNameData.resx">
       <DependentUpon>202205182035507_UpdateMembershipNameData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182058328_AddBirthdateFieldToDb.resx">
+      <DependentUpon>202205182058328_AddBirthdateFieldToDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182129402_AddBirthdayToUsers.resx">
+      <DependentUpon>202205182129402_AddBirthdayToUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182135276_AddBirthdayToUsers1.resx">
+      <DependentUpon>202205182135276_AddBirthdayToUsers1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182145211_AddBirthdayToUsers2.resx">
+      <DependentUpon>202205182145211_AddBirthdayToUsers2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182150176_FixDatetime.resx">
+      <DependentUpon>202205182150176_FixDatetime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182219325_AddMoviesToDb.resx">
+      <DependentUpon>202205182219325_AddMoviesToDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182224071_UpdateMovies.resx">
+      <DependentUpon>202205182224071_UpdateMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182225067_SetGenres.resx">
+      <DependentUpon>202205182225067_SetGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182242521_AddAndUpdateMovies.resx">
+      <DependentUpon>202205182242521_AddAndUpdateMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182303239_NewMovieProperties.resx">
+      <DependentUpon>202205182303239_NewMovieProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202205182303519_AddRequiredFields.resx">
+      <DependentUpon>202205182303519_AddRequiredFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
