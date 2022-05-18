@@ -235,3 +235,5 @@ E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMember
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomer.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.BeforeExersises.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeName.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateMembershipNameData.resources
