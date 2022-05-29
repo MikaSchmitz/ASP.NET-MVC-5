@@ -13,9 +13,12 @@ namespace Vidly.Models
 
         [Required]
         [StringLength(26)]
+        [Display(Name = "First Name")]
         public string FirstName { get; set; }
 
         [Required]
+        [StringLength(40)]
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
 
         [Display(Name = "Date of Birth")]

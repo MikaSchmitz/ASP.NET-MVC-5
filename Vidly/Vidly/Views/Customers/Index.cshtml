@@ -14,20 +14,24 @@
 }
 else
 {
+    @Html.ActionLink("New Customer", "New", "Customers", new { @class= "btn btn-primary btn-lg" })
+
     <table class="table">
         <thead>
             <tr>
                 <th scope="col">Customer</th>
                 <th>Discount rate</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var customer in Model)
             {
-                <tr>
-                    <td>@Html.ActionLink(customer.Name, "Details/" + customer.Id, "Customers")</td>
-                    <td>@customer.MembershipType.Name</td>
-                </tr>
+            <tr>
+                <td>@Html.ActionLink(customer.Name, "Details/" + customer.Id, "Customers")</td>
+                <td>@customer.MembershipType.Name</td>
+                <td>@Html.ActionLink("Edit", "Edit/" + customer.Id, "Customers")</td>
+            </tr>
             }
         </tbody>
     </table>

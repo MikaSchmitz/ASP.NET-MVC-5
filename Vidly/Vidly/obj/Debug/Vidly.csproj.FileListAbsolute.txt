@@ -248,3 +248,4 @@ E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetGenres
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAndUpdateMovies.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.NewMovieProperties.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRequiredFields.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.LastNameLength.resources
