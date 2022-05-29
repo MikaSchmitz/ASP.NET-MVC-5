@@ -10,15 +10,24 @@ namespace Vidly.Models
     {
         //properties
         public int Id { get; set; }
+
         [Required]
         [StringLength(26)]
         public string FirstName { get; set; }
+
         [Required]
         public string LastName { get; set; }
+
+        [Display(Name = "Date of Birth")]
         public DateTime? Birthdate { get; set; }
+
         public bool IsSubscribedToNewsletter { get; set; }
+
         public MembershipType MembershipType { get; set; }
+
+        [Display(Name = "Membership Type")]
         public byte MembershipTypeId { get; set; }
+
 
         //methods
         //get full name
