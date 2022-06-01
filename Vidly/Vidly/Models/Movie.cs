@@ -11,10 +11,11 @@ namespace Vidly.Models
     {
         //properties
         public int Id { get; set; }
+
         [Required]
         public string Name { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter the date this movie releases as yyyy-mm-dd")]
         [Display(Name = "Release Date")]
         public DateTime ReleaseDate { get; set; }
 
@@ -23,7 +24,7 @@ namespace Vidly.Models
         public DateTime AddedDate { get; set; }
 
         [Required]
-        [Display(Name = "Number in Stock")]
+        [Display(Name = "Number in Stock"), Range(0, 32)]
         public int NumberInStock { get; set; }
 
         public Genre Genre { get; set; }
