@@ -60,6 +60,7 @@ namespace Vidly.Controllers
 
         // CREATE: new user. make sure it can only be called using a post (always do this when modifying data)
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
             //return view if modelstate is not valid
