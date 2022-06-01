@@ -249,3 +249,5 @@ E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddAndUpd
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.NewMovieProperties.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRequiredFields.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.LastNameLength.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.fix.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.removeBirthdateRequired.resources

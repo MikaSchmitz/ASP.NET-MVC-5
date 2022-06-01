@@ -11,7 +11,7 @@ namespace Vidly.Models
         //properties
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter the customer's first name")]
         [StringLength(26)]
         [Display(Name = "First Name")]
         public string FirstName { get; set; }
@@ -22,6 +22,7 @@ namespace Vidly.Models
         public string LastName { get; set; }
 
         [Display(Name = "Date of Birth")]
+        [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
 
         public bool IsSubscribedToNewsletter { get; set; }
