@@ -9,6 +9,16 @@ namespace Vidly.ViewModels
     public class CustomerFormViewModel
     {
         public IEnumerable<MembershipType> MembershipTypes { get; set; }
+        //instead of using the class you can also use the requested properties
         public Customer Customer { get; set; }
+        public string Title
+        {
+            get
+            {
+                if (Customer != null && Customer.Id != 0)
+                    return "Edit Customer";
+                return "New Customer";
+            }
+        }
     }
 }
