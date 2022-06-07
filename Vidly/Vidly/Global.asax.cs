@@ -13,6 +13,8 @@ namespace Vidly
     {
         protected void Application_Start()
         {
+            //enable web API
+            GlobalConfiguration.Configure(WebApiConfig.Register);
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
