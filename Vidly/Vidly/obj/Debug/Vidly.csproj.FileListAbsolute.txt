@@ -251,3 +251,5 @@ E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRequir
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.LastNameLength.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.fix.resources
 E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.removeBirthdateRequired.resources
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\bin\AutoMapper.dll
+E:\Coding\Courses\ASP.NET MVC 5\Vidly\Vidly\bin\AutoMapper.xml

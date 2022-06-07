@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using Newtonsoft.Json.Serialization;
 
 namespace Vidly
 {
@@ -10,6 +11,11 @@ namespace Vidly
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
+
+            // Set formatting to lower camelcase
+            var settings = config.Formatters.JsonFormatter.SerializerSettings;
+            settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            settings.Formatting = Newtonsoft.Json.Formatting.Indented;
 
             // Web API routes
             config.MapHttpAttributeRoutes();
